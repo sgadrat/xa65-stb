@@ -35,7 +35,7 @@
 #define MAXLINE		2048
 #define MAXPP		40000L
 #define ANZDEF		2340	/* multiplied by sizeof(List) -> Byte, ANZDEF * 20 < 32768 */
-#define TMPMEM		2000000L	/* temporary memory buffer from Pass1 to Pass 2 (includes all source, thus enlarged) */
+#define TMPMEM		20000000L	/* temporary memory buffer from Pass1 to Pass 2 (includes all source, thus enlarged) */
 
 typedef enum {
         STD = 0,

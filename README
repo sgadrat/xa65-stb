@@ -1,19 +1,9 @@
+This is an hack to compile Super Tilt Bro.
 
-This is an experiment. 
+The base is the **listing** branch of this repository: https://github.com/fachat/xa65
 
-xa65 is a 6502 cross assembler, running on Unix (and Unix-alikes), and producing 6502 and 65816 code. It comes complete with a set of tools.
-
-xa65 was originally authored by me, André Fachat, but currently and still xa65 is maintained by Cameron Kaiser at http://www.floodgap.com/retrotech/xa/ . 
-
-In this experimental repository, I am mirroring Cameron's releases and I am working on fixes and changes that I may want to submit to Cameron.
-
-These are the directories:
-
-xa		- contains the main source. The master branch is the stable version
-
-
-These are the current branches:
-
-master		- stable branch, currently 2.3.5
-listing		- experimental branch that adds ca65 compatibility features and assembler listing
-
+Differences:
+ - Based on the listing branch, Super Tilt Bro.'s debug tools are based on the source listing
+ - More memory allocated.
+ - listing2nl.py: converting to fceux debugger format
+ - .gitignore added
