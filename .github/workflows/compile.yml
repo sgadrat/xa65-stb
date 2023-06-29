@@ -15,3 +15,9 @@ jobs:
     - uses: actions/checkout@v3
     - name: make
       run: cd xa ; make
+    - name: show-pwd
+      run: pwd
+    - uses: actions/upload-artifact@v3
+      with:
+        name: xa
+        path: xa
